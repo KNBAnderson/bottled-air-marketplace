@@ -1,0 +1,48 @@
+[debug] [2019-06-20T00:41:14.673Z] ----------------------------------------------------------------------
+[debug] [2019-06-20T00:41:14.675Z] Command:       /usr/local/bin/node /usr/local/bin/firebase open
+[debug] [2019-06-20T00:41:14.675Z] CLI Version:   7.0.0
+[debug] [2019-06-20T00:41:14.675Z] Platform:      darwin
+[debug] [2019-06-20T00:41:14.675Z] Node Version:  v8.12.0
+[debug] [2019-06-20T00:41:14.676Z] Time:          Wed Jun 19 2019 17:41:14 GMT-0700 (PDT)
+[debug] [2019-06-20T00:41:14.676Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2019-06-20T00:41:14.682Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2019-06-20T00:41:14.682Z] > authorizing via signed-in user
+[debug] [2019-06-20T00:41:14.682Z] [iam] checking project bottled-air-marketplace for permissions ["firebase.projects.get"]
+[debug] [2019-06-20T00:41:14.684Z] >>> HTTP REQUEST POST https://cloudresourcemanager.googleapis.com/v1/projects/bottled-air-marketplace:testIamPermissions  
+
+[debug] [2019-06-20T00:41:14.832Z] <<< HTTP RESPONSE 200
+[debug] [2019-06-20T00:41:14.834Z] >>> HTTP REQUEST GET https://firebase.googleapis.com/v1beta1/projects/bottled-air-marketplace  
+ 
+[debug] [2019-06-20T00:41:14.965Z] <<< HTTP RESPONSE 200
+[debug] [2019-06-20T00:41:15.051Z] TypeError: prompt.once is not a function
+    at Command._action (/usr/local/lib/node_modules/firebase-tools/lib/commands/open.js:69:14)
+    at /usr/local/lib/node_modules/firebase-tools/lib/command.js:163:37
+    at <anonymous>
+    at process._tickDomainCallback (internal/process/next_tick.js:229:7)
+[error] 
+[error] Error: An unexpected error has occurred.
+[debug] [2019-06-20T00:41:27.171Z] ----------------------------------------------------------------------
+[debug] [2019-06-20T00:41:27.173Z] Command:       /usr/local/bin/node /usr/local/bin/firebase open
+[debug] [2019-06-20T00:41:27.173Z] CLI Version:   7.0.0
+[debug] [2019-06-20T00:41:27.173Z] Platform:      darwin
+[debug] [2019-06-20T00:41:27.173Z] Node Version:  v8.12.0
+[debug] [2019-06-20T00:41:27.174Z] Time:          Wed Jun 19 2019 17:41:27 GMT-0700 (PDT)
+[debug] [2019-06-20T00:41:27.174Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2019-06-20T00:41:27.180Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2019-06-20T00:41:27.181Z] > authorizing via signed-in user
+[debug] [2019-06-20T00:41:27.181Z] [iam] checking project bottled-air-marketplace for permissions ["firebase.projects.get"]
+[debug] [2019-06-20T00:41:27.182Z] >>> HTTP REQUEST POST https://cloudresourcemanager.googleapis.com/v1/projects/bottled-air-marketplace:testIamPermissions  
+
+[debug] [2019-06-20T00:41:27.335Z] <<< HTTP RESPONSE 200
+[debug] [2019-06-20T00:41:27.336Z] >>> HTTP REQUEST GET https://firebase.googleapis.com/v1beta1/projects/bottled-air-marketplace  
+ 
+[debug] [2019-06-20T00:41:27.485Z] <<< HTTP RESPONSE 200
+[debug] [2019-06-20T00:41:27.531Z] TypeError: prompt.once is not a function
+    at Command._action (/usr/local/lib/node_modules/firebase-tools/lib/commands/open.js:69:14)
+    at /usr/local/lib/node_modules/firebase-tools/lib/command.js:163:37
+    at <anonymous>
+    at process._tickDomainCallback (internal/process/next_tick.js:229:7)
+[error] 
+[error] Error: An unexpected error has occurred.

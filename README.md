@@ -41,7 +41,7 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 * Run in browser
 
 ## Known Bugs
-There are no known bugs.
+* _'$ firebase open' comand throws an error _
 
 ## Technologies Used
 
