@@ -25,7 +25,10 @@ export class BottleDetailComponent implements OnInit {
     this.route.params.forEach((urlParameters) => {
       this.bottleId = urlParameters['id'];
     }); 
-    this.bottle = this.bottleService.getBottleById(this.bottleId);
+    this.bottle = this.bottleService.getBottleById(this.bottleId).subscribe(dataLastEmmitedFromObserver => {
+      this.bottle = new Bottle(dataLastEmmitedFromObserver.origin,
+        dataLastEmmitedFromObserver.year, dataLastEmmitedFromObserver.description, dataLastEmmitedFromObserver.price);
+    });
   
   }
 
